@@ -1,1 +1,10 @@
 
+spring:
+  application:
+    name: cloud-movie-k8s
+  datasource:
+    initialize: true
+    platform: mysql
+    url: jdbc:mysql://${CLOUD_MOVIE_DB_SERVICE_HOST}:${CLOUD_MOVIE_DB_SERVICE_PORT}/${MYSQL_DATABASE}
+    username: ${MYSQL_USER}
+    password: ${MYSQL_PASSWORD}
