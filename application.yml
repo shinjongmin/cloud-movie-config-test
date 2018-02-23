@@ -1,1 +1,12 @@
 
+spring:
+  application:
+    name: cloud-movie
+
+server:
+  port: 8090
+  
+
+      
+
+    
